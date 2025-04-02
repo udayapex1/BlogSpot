@@ -79,7 +79,7 @@ const Hero = () => {
             </Link>
           ))
         ) : (
-          <div className="col-span-full text-center text-gray-500">No blogs available</div>
+          <div className="col-span-full text-center text-gray-500">No blogs available || Please Wait for 50s start Backend Appliction </div>
         )}
       </div>
 
