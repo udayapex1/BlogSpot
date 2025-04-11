@@ -6,8 +6,8 @@ const createTokenAndSaveCookies = async (userId, res) => {
     expiresIn: "30d",
   });
   res.cookie("jwt", token, {
-    httpOnly: false,
-    secure: false,
+    httpOnly: true,
+    secure: true,
     sameSite: "none",
     path: "/",
   });
